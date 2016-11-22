@@ -92,47 +92,47 @@ function Game() {
         'risk_levels':[
             {
                 'level':0.0001,
-                'label':'nearly impossible',
+                'label':'casi imposible',
                 'color':'green',
             },
             {
                 'level':0.005,
-                'label':'super low',
+                'label':'casi ninguna',
                 'color':'green',
             },
             {
                 'level':0.05,
-                'label':'very low',
+                'label':'muy baja',
                 'color':'green'
             },
             {
                 'level':0.2,
-                'label':'low',
+                'label':'baja',
                 'color':'green',
             },
             {
                 'level':0.35,
-                'label':'moderate',
+                'label':'moderada',
                 'color':'orange',
             },
             {
                 'level':0.50,
-                'label':'high',
+                'label':'alta',
                 'color':'red',
             },
             {
                 'level':0.7,
-                'label':'very high',
+                'label':'muy alta',
                 'color':'red',
             },
             {
                 'level':0.9,
-                'label':'nearly certain (!)',
+                'label':'casi segura (!)',
                 'color':'red',
             },
             {
                 'level':100000000000000000,
-                'label':'certain (!!)',
+                'label':'segura (!!)',
                 'color':'red',
             },
         ],
@@ -155,11 +155,11 @@ function Game() {
                 4: 'Estudiante de sociales',
                 6: 'Progres',
                 10: 'Zurditos',
-                13: 'Peronista de Perón',
+                13: 'Peronista de Peron',
                 16: 'Cabeza de termo',
                 20: 'NEGRO',
                 25: 'Repetidores de 678',
-                50: 'Blue Platinum',
+                50: 'Militonto',
                 100: 'FDA Approved Additive',
                 159: 'Atomically Perfect',
                 211: 'Holy',
@@ -172,8 +172,8 @@ function Game() {
         'banks':{
             'b_lemonade':{
                 'amount':0,
-                'label':'Lemonade Stand',
-                'description':'Launder minimal cash through a lemonade stand',
+                'label':'Universidades falopa',
+                'description':'Mas presupuesto que la UBA con una decima del nivel',
                 'rps':1,
                 'unlock_rps':1,
                 'cost':200,
@@ -183,8 +183,8 @@ function Game() {
             },
             'b_nail_salon':{
                 'amount':0,
-                'label':'Nail Salon',
-                'description':'Purchase a nail salon to launder a small amount of cash',
+                'label':'Medias de Clarin miente',
+                'description':'Esos chicos de Angola no pueden andar descalzos',
                 'rps':12,
                 'unlock_rps':5,
                 'cost':8000,
@@ -194,8 +194,8 @@ function Game() {
             },
             'b_banana_stand':{
                 'amount':0,
-                'label':'Banana Stand',
-                'description':'Invest in a banana stand for your laundering pleasure',
+                'label':'Bunker del FPV',
+                'description':'',
                 'rps':120,
                 'unlock_rps':12,
                 'cost':100000,
@@ -205,7 +205,7 @@ function Game() {
             },
             'b_chicken_place':{
                 'amount':0,
-                'label':'Chicken Restaurant',
+                'label':'Saqueos en Navidad',
                 'description':'Invest in a fried chicken restaurant to safely launder a fair amount of cash',
                 'rps':1500,
                 'unlock_rps':150,
@@ -216,8 +216,8 @@ function Game() {
             },
             'b_laser_tag':{
                 'amount':0,
-                'label':'Laser Tag Theme Park',
-                'description':'Launder money through laser tag!',
+                'label':'Dolar futuro',
+                'description':'',
                 'rps':16000,
                 'unlock_rps':500,
                 'cost':10000000,
@@ -344,7 +344,7 @@ function Game() {
                 'sid':'c1',
             },
             '03_used_rv':{
-                'label':'Tecnópolis',
+                'label':'Tecnopolis',
                 'description':'Hacele creer a la gente que le podemos competir a Disney World',
                 'amount':0,
                 'risk':0.005,
@@ -381,7 +381,7 @@ function Game() {
             },
             '07_warehouse':{
                 'label':'Billetes con la cara de Evita',
-                'description':'Para que admitir la inflación cuando podes poner una figura partidaria en un billete',
+                'description':'Para que admitir la inflacion cuando podes poner una figura partidaria en un billete',
                 'amount':0,
                 'rps':100,
                 'risk':0.05,
@@ -393,7 +393,7 @@ function Game() {
             },
             '09_lab':{
                 'label':'YPF',
-                'description':'El barril de petróleo baja pero el precio de la nafta siempre sube',
+                'description':'El barril de petroleo baja pero el precio de la nafta siempre sube',
                 'amount':0,
                 'rps':500,
                 'risk':0.1,
@@ -404,7 +404,7 @@ function Game() {
                 'sid':'c6',
             },
             '10_under_lab': {
-                'label':'Aerolíneas Argentinas',
+                'label':'Aerolineas Argentinas',
                 'description':'Recaudando coimas en Ezeiza por los iPhones traidos de Miami',
                 'amount':0,
                 'risk':0.005,
@@ -417,7 +417,7 @@ function Game() {
             },
             '11_bot': {
                 'label':'Retenciones al campo',
-                'description':'La soja es prácticamente un yuyo',
+                'description':'La soja es practicamente un yuyo',
                 'amount':0,
                 'risk':0.1,
                 'rps':13000,
@@ -477,7 +477,7 @@ function Game() {
             },
             'station': {
                 'label':'Subsidiar todos los servicios',
-                'description':'Nada mejor que regalar la energía para reactivar la economía',
+                'description':'Nada mejor que regalar la energia para reactivar la economia',
                 'amount':0,
                 'risk':0.000000001,
                 'rps':11205000,
@@ -489,7 +489,7 @@ function Game() {
             },
             'meth_factory':{
                 'label':'Ensamblar celulares en Tierra del Fuego',
-                'description':'Salen 20 veces más caro que en USA pero le damos trabajo al que venga la estampilla',
+                'description':'Salen 20 veces mas caro que en USA pero le damos trabajo al que pega la estampilla',
                 'amount':0,
                 'risk':0.55,
                 'rps':55205000,
@@ -501,7 +501,7 @@ function Game() {
             },
             'belt':{
                 'label':'Descolgar cuadros',
-                'description':'Si seguimos pensando en el pasado no vamos a tener más futuro',
+                'description':'Si seguimos pensando en el pasado no vamos a tener mas futuro',
                 'amount':0,
                 'risk':0.000001,
                 'rps':492005000,
@@ -512,7 +512,7 @@ function Game() {
                 'sid':'c15',
             },
             'c_planet':{
-                'label':'Muerte de Néstor',
+                'label':'Muerte de Nestor',
                 'description':'Una viuda indefensa',
                 'amount':0,
                 'risk':0.000001,
@@ -524,7 +524,7 @@ function Game() {
                 'sid':'c16',
             },
             'c_portal':{
-                'label':'Cepo al dólar',
+                'label':'Cepo al dolar',
                 'description':'Elegir la moneda con la que ahorrar es de cipayo vendepatria',
                 'amount':0,
                 'risk':0.1,
@@ -555,7 +555,7 @@ function Game() {
             },
             '03_drug_mule':{
                 'label':'Hotesur',
-                'description':'Un hótel tan lleno que parece vacío',
+                'description':'Un hotel tan lleno que parece vacio',
                 'amount':0,
                 'risk':0.005,
                 'rps':1,
@@ -567,7 +567,7 @@ function Game() {
             },
             'drug_van':{
                 'label':'Ley de Medios',
-                'description':'Una ley para destruir a Clarín',
+                'description':'Una ley para destruir a Clarin',
                 'amount':0,
                 'risk':0.05,
                 'rps':8,
@@ -3107,7 +3107,7 @@ function Game() {
     function event_irs_audit(n) {
         var rsk = get_risk2();
         if(rsk < Math.random()) {
-            good_message('Pudiste esquivar una nueva causa por corrupción');
+            good_message('Pudiste esquivar una nueva causa por corrupcion');
             return;
         }
         var amt = pd.cash.amount * n;
@@ -3117,7 +3117,7 @@ function Game() {
             return;
         }
         pd.cash.amount -= amt;
-        bad_message('El juicio te va a costar $'+pretty_bigint(amt)+' de tu bóveda');
+        bad_message('El juicio te va a costar $'+pretty_bigint(amt)+' de tu boveda');
     }
 
 
@@ -3137,11 +3137,11 @@ function Game() {
         earn_cash(amt);
         if(amt > 10000000000) {
           good_message('Ahorramos $'
-              +pretty_int(amt)+' cortando la inversión en la red eléctrica!');
+              +pretty_int(amt)+' cortando la inversion en la red electrica!');
             return;
         }
         if(amt > 10000000) {
-            good_message('Moreno apretó a los empresarios y les sacó $'
+            good_message('Moreno apreto a los empresarios y les saco $'
                 +pretty_bigint(amt)+'!');
             return;
         }
@@ -3149,7 +3149,7 @@ function Game() {
             good_message('Antonini Wilson trajo una valija con $'+pretty_int(amt)+' adentro!');
             return;
         }
-        good_message('Un donante anónimo de Defaultzuela contribuyo con $'
+        good_message('Un donante anonimo de Defaultzuela contribuyo con $'
             +pretty_bigint(amt)+' a tu causa');
     }
     // Meth lost, meth made per second * r
@@ -3177,7 +3177,7 @@ function Game() {
             amt = pd.cash.amount;
         }
         pd.cash.amount -= amt;
-        bad_message('Hubo que pagarle $'+pretty_bigint(amt)+' a los artístas para que hablen bien del gobierno');
+        bad_message('Hubo que pagarle $'+pretty_bigint(amt)+' a los artistas para que hablen bien del gobierno');
         return true;
     }
 
@@ -3192,7 +3192,7 @@ function Game() {
             amt = pd.cash.amount;
         }
         pd.cash.amount -= amt;
-        bad_message('Desapareció un bolso con $'+pretty_bigint(amt)+'!');
+        bad_message('Desaparecio un bolso con $'+pretty_bigint(amt)+'!');
         return true;
     }
 
@@ -3216,7 +3216,7 @@ function Game() {
         var amt = (pd.cash.amount * n);
         amt -= get_safe_cash();
         if(amt < 1) {
-            good_message('Macri no nos pudo sacar ningún voto!');
+            good_message('Macri no nos pudo sacar ningun voto!');
             return false;
         }
         pd.cash.amount -= amt;
