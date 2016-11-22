@@ -19,7 +19,7 @@
     AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-    THE SOFTWARE. 
+    THE SOFTWARE.
  ******************************************************************************/
 
 var active_tab = '';
@@ -43,7 +43,7 @@ var tick_ms = 100;
 //var has_gaq = true;
 
 
-function Game() { 
+function Game() {
 
     var pd = {
         'title':'Clicking Bad',
@@ -95,7 +95,7 @@ function Game() {
                 'label':'nearly impossible',
                 'color':'green',
             },
-            { 
+            {
                 'level':0.005,
                 'label':'super low',
                 'color':'green',
@@ -110,7 +110,7 @@ function Game() {
                 'label':'low',
                 'color':'green',
             },
-            { 
+            {
                 'level':0.35,
                 'label':'moderate',
                 'color':'orange',
@@ -120,7 +120,7 @@ function Game() {
                 'label':'high',
                 'color':'red',
             },
-            {   
+            {
                 'level':0.7,
                 'label':'very high',
                 'color':'red',
@@ -130,7 +130,7 @@ function Game() {
                 'label':'nearly certain (!)',
                 'color':'red',
             },
-            { 
+            {
                 'level':100000000000000000,
                 'label':'certain (!!)',
                 'color':'red',
@@ -138,26 +138,27 @@ function Game() {
         ],
         'cash': {
             'amount':0,
-            'safe':0, 
+            'safe':0,
             'safe_rps':0,
-            'label':'Cash Money',
-            'action_label':'SELL!',
+            'label':'Guita',
+            'action_label':'AFANAR!',
         },
         'widget_roi':0.5,
         'widgets':{
             'amount':0,
-            'label':'Batches',
-            'action_label':'COOK!',
+            'label':'Camporistas',
+            'action_label':'CHORIPLAN!',
+            // que tan cabeza de termo son los votantes
             'qualities':{
-                1: 'Deadly',
-                2: 'Dangerous',
-                4: 'Unhealthy',
-                6: 'Cloudy',
-                10: 'Poor',
-                13: 'Average',
-                16: 'Good',
-                20: 'Crystal',
-                25: 'Blue Gold',
+                1: 'Humanos pensantes',
+                2: 'Seres civilizados',
+                4: 'Estudiante de sociales',
+                6: 'Progres',
+                10: 'Zurditos',
+                13: 'Peronista de Perón',
+                16: 'Cabeza de termo',
+                20: 'NEGRO',
+                25: 'Repetidores de 678',
                 50: 'Blue Platinum',
                 100: 'FDA Approved Additive',
                 159: 'Atomically Perfect',
@@ -331,8 +332,8 @@ function Game() {
         // MANUFACTURING
         'clickers':{
             '01_storage_shed':{
-                'label':'Storage Shed',
-                'description':'A cheap shed with electricity',
+                'label':'Twiteros K',
+                'description':'Spammeando twitter desde la comodidad de su living',
                 'amount':0,
                 'risk':0.05,
                 'rps':.2,
@@ -343,8 +344,8 @@ function Game() {
                 'sid':'c1',
             },
             '03_used_rv':{
-                'label':'Used RV',
-                'description':'A low cost RV, perfect for remote cooking',
+                'label':'Tecnópolis',
+                'description':'Hacele creer a la gente que le podemos competir a Disney World',
                 'amount':0,
                 'risk':0.005,
                 'rps':1,
@@ -355,8 +356,8 @@ function Game() {
                 'sid':'c2',
             },
             'trailer':{
-                'label':'Abandoned Trailer',
-                'description':'An abandoned trailer in an area heavily neglected by the police',
+                'label':'678',
+                'description':'Cobran fortuna por repetir siempre lo mismo pero te lavan la cabeza',
                 'amount':0,
                 'risk':0.01,
                 'rps':5,
@@ -367,8 +368,8 @@ function Game() {
                 'sid':'c3',
             },
             '05_house':{
-                'label':'Small House',
-                'description':'A small house in a bad neighborhood',
+                'label':'Hinchadas Unidas Argentinas',
+                'description':'Porque usar a los barras como fuerza de choque no puede ser una mala idea',
                 'amount':0,
                 'risk':0.05,
                 'rps':25,
@@ -379,8 +380,8 @@ function Game() {
                 'sid':'c4',
             },
             '07_warehouse':{
-                'label':'Abandoned Warehouse',
-                'description':'A large abandoned warehouse with vaulted ceilings',
+                'label':'Billetes con la cara de Evita',
+                'description':'Para que admitir la inflación cuando podes poner una figura partidaria en un billete',
                 'amount':0,
                 'rps':100,
                 'risk':0.05,
@@ -390,9 +391,9 @@ function Game() {
                 'unlocked':false,
                 'sid':'c5',
             },
-            '09_lab':{ 
-                'label':'Laboratory',
-                'description':'An above ground laboratory outfitted for meth production',
+            '09_lab':{
+                'label':'YPF',
+                'description':'El barril de petróleo baja pero el precio de la nafta siempre sube',
                 'amount':0,
                 'rps':500,
                 'risk':0.1,
@@ -403,8 +404,8 @@ function Game() {
                 'sid':'c6',
             },
             '10_under_lab': {
-                'label':'Underground Laboratory',
-                'description':'A massive hidden laboratory for your discreet cooking needs',
+                'label':'Aerolíneas Argentinas',
+                'description':'Recaudando coimas en Ezeiza por los iPhones traidos de Miami',
                 'amount':0,
                 'risk':0.005,
                 'rps':2000,
@@ -415,8 +416,8 @@ function Game() {
                 'sid':'c7',
             },
             '11_bot': {
-                'label':'Meth-o-matic 9000',
-                'description':'The latest and greatest in laboratory technology, converted for meth production',
+                'label':'Retenciones al campo',
+                'description':'La soja es prácticamente un yuyo',
                 'amount':0,
                 'risk':0.1,
                 'rps':13000,
@@ -427,8 +428,8 @@ function Game() {
                 'sid':'c8',
             },
             '11_bot_s': {
-                'label':'Meth-o-matic 9000S',
-                'description':'Just like Meth-o-matic, but features voice activated control',
+                'label':'Cadena Nacional',
+                'description':'TODO: Te quema la cabeza',
                 'amount':0,
                 'risk':0.1,
                 'rps':14000,
@@ -451,8 +452,8 @@ function Game() {
                 'sid':'c10',
             },
             'country':{
-                'label':'Island State',
-                'description':'Purchase a small island country, and turn it into a meth-based economic superpower',
+                'label':'Paka Paka',
+                'description':'Peronista no se nace, se hace',
                 'amount':0,
                 'risk':0.00000001,
                 'rps':105000,
@@ -475,9 +476,8 @@ function Game() {
                 'sid':'c12',
             },
             'station': {
-                'label':'Meth Star',
-                'description':'That\'s no moon... it\'s a man made super lab! '
-                    + ' With tractor beams.',
+                'label':'Subsidiar todos los servicios',
+                'description':'Nada mejor que regalar la energía para reactivar la economía',
                 'amount':0,
                 'risk':0.000000001,
                 'rps':11205000,
@@ -488,9 +488,8 @@ function Game() {
                 'sid':'c13',
             },
             'meth_factory':{
-                'label':'Industrial Complex',
-                'description':'A massive industrial complex with thousands of cooks. '
-                    + 'Cautious? Nope! Effective? You\'re Goddamn right',
+                'label':'Ensamblar celulares en Tierra del Fuego',
+                'description':'Salen 20 veces más caro que en USA pero le damos trabajo al que venga la estampilla',
                 'amount':0,
                 'risk':0.55,
                 'rps':55205000,
@@ -501,9 +500,8 @@ function Game() {
                 'sid':'c14',
             },
             'belt':{
-                'label':'Heisenbelt',
-                'description':'A series of labs on the outer edges of the solar '
-                    + 'system that convert asteroids into pure crystal',
+                'label':'Descolgar cuadros',
+                'description':'Si seguimos pensando en el pasado no vamos a tener más futuro',
                 'amount':0,
                 'risk':0.000001,
                 'rps':492005000,
@@ -514,8 +512,8 @@ function Game() {
                 'sid':'c15',
             },
             'c_planet':{
-                'label':'Planetary Meth Replicator',
-                'description':'Convert all of a planet\'s matter into pure crystal',
+                'label':'Muerte de Néstor',
+                'description':'Una viuda indefensa',
                 'amount':0,
                 'risk':0.000001,
                 'rps':1590000000,
@@ -526,9 +524,8 @@ function Game() {
                 'sid':'c16',
             },
             'c_portal':{
-                'label':'Portal to The Crystalverse',
-                'description':'Attempt to open a portal to another universe full of '
-                    + 'Cookies, err... Crystal Meth',
+                'label':'Cepo al dólar',
+                'description':'Elegir la moneda con la que ahorrar es de cipayo vendepatria',
                 'amount':0,
                 'risk':0.1,
                 'rps':21590000000,
@@ -545,8 +542,8 @@ function Game() {
         // DISTRIBUTION
         'sellers':{
             '01_dealer':{
-                'label':'Dealer',
-                'description':'A common street thug to sell your goods',
+                'label':'Austral Construcciones',
+                'description':'TODO: ',
                 'amount':0,
                 'risk':0.03,
                 'rps':.2,
@@ -557,8 +554,8 @@ function Game() {
                 'sid':'s1',
             },
             '03_drug_mule':{
-                'label':'Drug Mule',
-                'description':'Someone to stuff drugs in their rectum and distribute them',
+                'label':'Hotesur',
+                'description':'Un hótel tan lleno que parece vacío',
                 'amount':0,
                 'risk':0.005,
                 'rps':1,
@@ -569,8 +566,8 @@ function Game() {
                 'sid':'s2',
             },
             'drug_van':{
-                'label':'Drug Van',
-                'description':'A runned-down van that actively seeks out customers',
+                'label':'Ley de Medios',
+                'description':'Una ley para destruir a Clarín',
                 'amount':0,
                 'risk':0.05,
                 'rps':8,
@@ -581,8 +578,8 @@ function Game() {
                 'sid':'s3',
             },
             'cheap_lawyer':{
-                'label':'Sleazy Lawyer',
-                'description':'Reduces your risk of getting charged by the DEA, also distributes some product on the side',
+                'label':'Oyarbide',
+                'description':'Reduce el riesgo del gato de Macri mientras reparte choriplanes',
                 'amount':0,
                 'risk':-0.05,
                 'rps':10,
@@ -628,7 +625,7 @@ function Game() {
                 'unlocked':false,
                 'sid':'s7',
             },
-            '09_diplomat':{ 
+            '09_diplomat':{
                 'label':'Foreign Diplomat',
                 'description':'Hire a foreign diplomat to partner with the best drug pushers in their respective countries and reduce risk',
                 'amount':0,
@@ -663,7 +660,7 @@ function Game() {
                 'unlock_rps':20000,
                 'unlocked':false,
                 'sid':'s10',
-            },       
+            },
             'big_cartel':{
                 'label':'Rival Cartel',
                 'description':'Pay off a rival cartel, greatly increasing the demand for your product',
@@ -716,7 +713,7 @@ function Game() {
                 'unlocked':false,
                 'sid':'s14',
             },
-            // Sneak a ref in the shuttle for fun. 
+            // Sneak a ref in the shuttle for fun.
             'shuttle':{
                 'label':'Meth Horizon',
                 'description':'According to commander Tony Drake, these '
@@ -757,7 +754,7 @@ function Game() {
                 'unlocked':false,
                 'sid':'s17',
             },
-        }, 
+        },
         // END sellers
 
 
@@ -814,7 +811,7 @@ function Game() {
                 'prereq':'02_goatee',
                 'sid':'u05',
             },
-            '07_hat': { 
+            '07_hat': {
                 'label':'Porkpie Hat',
                 'description':'This early 20th century hat keeps the sun out of your eyes, allowing you to make an additional 50 batches at a time',
                 'action':'make_amount',
@@ -954,7 +951,7 @@ function Game() {
                 'cost':210555000,
                 'prereq':'lawyers_best',
                 'sid':'u19',
-            },       
+            },
             'lawyers_magic':{
                 'label':'Immortal Lawyers',
                 'description':'Your lawyers are now demigods. They reduce risk by an additional 10%',
@@ -1037,7 +1034,7 @@ function Game() {
                 'prereq':'22_hazmat_suit',
                 'sid':'u27',
             },
-            // UPG BURNERS 
+            // UPG BURNERS
             '31_electric_hotplate':{
                 'label':'Electric Hotplate',
                 'description':'Used for cooking',
@@ -1088,7 +1085,7 @@ function Game() {
                 'prereq':'34_titanium_burner',
                 'sid':'u32',
             },
-           
+
             // UPG COOKWARE
             '41_cheap_cookware':{
                 'label':'Cheap Cookware',
@@ -1130,7 +1127,7 @@ function Game() {
                 'prereq':'43_glass_flasks',
                 'sid':'u36',
             },
-            
+
             '47_carbon_filters':{
                 'label':'Carbon Filtration',
                 'description':'Filters out the extra deadly components, adding 3 IPUs',
@@ -1237,7 +1234,7 @@ function Game() {
                 'purchased':false,
                 'prereq':'slap_chop',
                 'sid':'u46',
-            }, 
+            },
             'crack_bite':{
                 'label':'Methbie',
                 'description':'After being bitten by a radioactive crack head, '
@@ -1262,7 +1259,7 @@ function Game() {
                 'sid':'u47.1',
             },
 
-            'ancient_methology': { 
+            'ancient_methology': {
                 'label':'Ancient Methology',
                 'description':'Send your best scientists to remote parts of the world looking for '
                     + 'lost secrets of meth production, increase purity by 10 IPUs',
@@ -1270,17 +1267,17 @@ function Game() {
                 'action':'widget_roi',
                 'mod':10,
                 'purchased':false,
-                'prereq':'50_platinum_boilers',           
+                'prereq':'50_platinum_boilers',
                 'sid':'u48',
             },
-            'methylamine_secret': { 
+            'methylamine_secret': {
                 'label':'Methylamine X',
                 'description':'By unlocking this experimental methylamine-based compound you increase purity by 10 IPUs',
                 'cost':126321500000,
                 'action':'widget_roi',
                 'mod':10,
                 'purchased':false,
-                'prereq':'ancient_methology',           
+                'prereq':'ancient_methology',
                 'sid':'u49',
             },
             'alien_meth':{
@@ -1291,7 +1288,7 @@ function Game() {
                 'action':'widget_roi',
                 'mod':12,
                 'purchased':false,
-                'prereq':'methylamine_secret',           
+                'prereq':'methylamine_secret',
                 'sid':'u50',
             },
             'quantum_meth':{
@@ -1302,8 +1299,8 @@ function Game() {
                 'action':'widget_roi',
                 'mod':44.5,
                 'purchased':false,
-                'prereq':'alien_meth',           
-                'sid':'u50.1',               
+                'prereq':'alien_meth',
+                'sid':'u50.1',
             },
             'u_holy_meth':{
                 'label':'Holy Meth',
@@ -1313,8 +1310,8 @@ function Game() {
                 'action':'widget_roi',
                 'mod':53,
                 'purchased':false,
-                'prereq':'alien_meth',           
-                'sid':'u50.2',               
+                'prereq':'alien_meth',
+                'sid':'u50.2',
             },
             'u_angelic':{
                 'label':'Angelic Meth',
@@ -1323,8 +1320,8 @@ function Game() {
                 'action':'widget_roi',
                 'mod':60,
                 'purchased':false,
-                'prereq':'u_holy_meth',           
-                'sid':'u50.3',               
+                'prereq':'u_holy_meth',
+                'sid':'u50.3',
             },
             // Laundering
             'u_nyme_1':{
@@ -1334,7 +1331,7 @@ function Game() {
                 'action':'banks.b_nyme.rps',
                 'mod':500000000,
                 'purchased':false,
-                'prereq':'lawyers_sleaze',                          
+                'prereq':'lawyers_sleaze',
                 'sid':'u51',
             },
             'u_nyme_2': {
@@ -1345,7 +1342,7 @@ function Game() {
                 'action':'banks.b_nyme.rps',
                 'mod':1000000000,
                 'purchased':false,
-                'prereq':'u_nyme_1',                          
+                'prereq':'u_nyme_1',
                 'sid':'u52',
             },
             'u_franchise': {
@@ -1356,7 +1353,7 @@ function Game() {
                 'action':'banks.b_franchise.rps',
                 'mod':2000000000,
                 'purchased':false,
-                'prereq':'u_nyme_2',                          
+                'prereq':'u_nyme_2',
                 'sid':'u53',
             },
             'u_cantina': {
@@ -1367,7 +1364,7 @@ function Game() {
                 'action':'banks.b_cantina.rps',
                 'mod':5000000000,
                 'purchased':false,
-                'prereq':'u_franchise',                          
+                'prereq':'u_franchise',
                 'sid':'u54',
             },
             'u_spacecorp': {
@@ -1378,7 +1375,7 @@ function Game() {
                 'action':'banks.b_spacecorp.rps',
                 'mod':200000000000,
                 'purchased':false,
-                'prereq':'u_cantina',                          
+                'prereq':'u_cantina',
                 'sid':'u55',
             },
             'donator_thanks':{
@@ -1394,8 +1391,8 @@ function Game() {
          },
 
         // ACHIEVEMENTS
-        'achievements': { 
-            'hand_made_widgets_1': { 
+        'achievements': {
+            'hand_made_widgets_1': {
                 'label':'This is kinda fun...',
                 'description':'You\'ve hand-cooked your first batch of meth',
                 'property':'stats.hand_made_widgets',
@@ -1406,7 +1403,7 @@ function Game() {
                 'min_time':1,
                 'sid':'a01',
             },
-            'hand_made_widgets_2': { 
+            'hand_made_widgets_2': {
                 'label':'I see how this works',
                 'description':'You\'ve hand-cooked 100 batches of meth',
                 'property':'stats.hand_made_widgets',
@@ -1417,7 +1414,7 @@ function Game() {
                 'min_time':1,
                 'sid':'a02',
             },
-            'hand_made_widgets_3': { 
+            'hand_made_widgets_3': {
                 'label':'Click apprentice',
                 'description':'You\'ve hand-cooked 1,000 batches of meth',
                 'property':'stats.hand_made_widgets',
@@ -1428,7 +1425,7 @@ function Game() {
                 'min_time':1,
                 'sid':'a03',
             },
-            'hand_made_widgets_4':{ 
+            'hand_made_widgets_4':{
                 'label':'Click magician',
                 'description':'You\'ve hand-cooked 100,000 batches of meth',
                 'property':'stats.hand_made_widgets',
@@ -1438,8 +1435,8 @@ function Game() {
                 'group':13,
                 'min_time':1,
                 'sid':'a04',
-            },      
-            'hand_made_widgets_5':{ 
+            },
+            'hand_made_widgets_5':{
                 'label':'Clickity-splickity',
                 'description':'You\'ve hand-cooked 1,000,000 batches of meth',
                 'property':'stats.hand_made_widgets',
@@ -1449,8 +1446,8 @@ function Game() {
                 'group':14,
                 'min_time':1,
                 'sid':'a05',
-            },      
-            'hand_made_widgets_6':{ 
+            },
+            'hand_made_widgets_6':{
                 'label':'I AM THE ONE WHO CLICKS',
                 'description':'YOU are to be feared. You\'ve hand-cooked 100,000,000 batches of meth!',
                 'property':'stats.hand_made_widgets',
@@ -1469,7 +1466,7 @@ function Game() {
                 'unlocked':false,
                 'value':1,
                 'group':20,
-                'min_time':1,           
+                'min_time':1,
                 'sid':'a07',
             },
             'total_cash_2': {
@@ -1480,7 +1477,7 @@ function Game() {
                 'unlocked':false,
                 'value':2,
                 'group':21,
-                'min_time':1,           
+                'min_time':1,
                 'sid':'a08',
             },
             'total_cash_3': {
@@ -1491,7 +1488,7 @@ function Game() {
                 'unlocked':false,
                 'value':3,
                 'group':22,
-                'min_time':1,           
+                'min_time':1,
                 'sid':'a09',
             },
             'total_cash_4': {
@@ -1502,7 +1499,7 @@ function Game() {
                 'unlocked':false,
                 'value':4,
                 'group':23,
-                'min_time':1,           
+                'min_time':1,
                 'sid':'a10',
             },
             'total_cash_5': {
@@ -1513,7 +1510,7 @@ function Game() {
                 'unlocked':false,
                 'value':5,
                 'group':24,
-                'min_time':1,           
+                'min_time':1,
                 'sid':'a11',
             },
             // Randoms (group 200+)
@@ -1525,7 +1522,7 @@ function Game() {
                 'unlocked':false,
                 'value':1,
                 'group':200,
-                'min_time':1,           
+                'min_time':1,
                 'sid':'a12',
             },
             'city_police_1': {
@@ -1536,10 +1533,10 @@ function Game() {
                 'unlocked':false,
                 'value':1,
                 'group':210,
-                'min_time':1,           
+                'min_time':1,
                 'sid':'a13',
             },
-            'lab_1': { 
+            'lab_1': {
                 'label':'Science, bitch!',
                 'description':'You\'ve acquired a laboratory',
                 'property':'clickers.09_lab.amount',
@@ -1547,7 +1544,7 @@ function Game() {
                 'unlocked':false,
                 'value':1,
                 'group':220,
-                'min_time':1,           
+                'min_time':1,
                 'sid':'a14',
             },
             'moon_lab_1':{
@@ -1559,7 +1556,7 @@ function Game() {
                 'hidden':false,
                 'value':1,
                 'group':227,
-                'min_time':1,           
+                'min_time':1,
                 'sid':'a15',
             },
             'station_1':{
@@ -1571,7 +1568,7 @@ function Game() {
                 'hidden':false,
                 'value':1,
                 'group':227,
-                'min_time':1,           
+                'min_time':1,
                 'sid':'a16',
             },
             'dea_1':{
@@ -1583,7 +1580,7 @@ function Game() {
                 'hidden':false,
                 'value':1,
                 'group':227,
-                'min_time':1,           
+                'min_time':1,
                 'sid':'a17',
             },
             'banana_stand': {
@@ -1596,7 +1593,7 @@ function Game() {
                 'value':1,
                 'group':250,
                 'min_time':1,
-                'sid':'a18',           
+                'sid':'a18',
             },
             'senate': {
                 'label':'Government Shutdown',
@@ -1607,7 +1604,7 @@ function Game() {
                 'hidden':false,
                 'value':1,
                 'group':228,
-                'min_time':1,           
+                'min_time':1,
                 'sid':'a19',
             },
             'a_franchise': {
@@ -1619,7 +1616,7 @@ function Game() {
                 'hidden':false,
                 'value':1,
                 'group':229,
-                'min_time':1,           
+                'min_time':1,
                 'sid':'a20',
             },
             'a_spacecorp':{
@@ -1787,7 +1784,7 @@ function Game() {
                 'hidden':true,
                 'value':1,
                 'group':230,
-                'min_time':1,           
+                'min_time':1,
                 'sid':'a101',
             },
             'cheated_meth_1':{
@@ -1799,14 +1796,14 @@ function Game() {
                 'hidden':true,
                 'value':1,
                 'group':240,
-                'min_time':1,           
+                'min_time':1,
                 'sid':'a102',
             },
 
         },
 
         // EVENTS
-        'events': { 
+        'events': {
             'cash_found_small':{
                 'chance':0.04,
                 'action':'event_found_cash(60)',
@@ -1827,11 +1824,11 @@ function Game() {
                 'chance':0.2,
                 'action':'event_dea_seize_building()',
             },
-            'cash_lost': { 
+            'cash_lost': {
                 'chance':0.007,
                 'action':'event_lose_cash(60)',
             },
-            'rival_cash_lost': { 
+            'rival_cash_lost': {
                 'chance':0.005,
                 'action':'event_rival_lose_cash(205)',
             },
@@ -1843,11 +1840,11 @@ function Game() {
                 'chance':0.005,
                 'action':'event_lose_meth(125)',
             },
-            'irs_audit_1': { 
+            'irs_audit_1': {
                 'chance':0.18,
                 'action':'event_irs_audit(0.5)',
             },
-            
+
         },
         // STATISTICS
         'stats': {
@@ -1870,11 +1867,11 @@ function Game() {
 
 
     // error_log() - Send a Game() specific error
-    this.error_log = function(msg) { 
+    this.error_log = function(msg) {
         error_log(msg, this.get_debug_data());
     }
 
-    this.get_debug_data = function() { 
+    this.get_debug_data = function() {
         return {
             'cash':pd.cash.amount,
             'widgets':pd.widgets.amount,
@@ -1884,7 +1881,7 @@ function Game() {
         }
     }
 
-    // sec_tick() - Runs every 1000ms 
+    // sec_tick() - Runs every 1000ms
     this.sec_tick = function() {
         fix_saved();
         fix_stats();
@@ -1892,24 +1889,24 @@ function Game() {
     }
 
     // tick() - Runs every tick_ms (default 100ms)
-    this.tick = function() { 
- 
+    this.tick = function() {
+
         var this_tick = (new Date).getTime();
         var this_sub = 1000 / tick_ms;
         var ticks = Math.round((this_tick - last_tick) / tick_ms);
-        if(ticks > 360000) { 
+        if(ticks > 360000) {
             ticks = 360000;
-        } else if (ticks < 1) { 
+        } else if (ticks < 1) {
             return;
         }
         last_tick = this_tick;
 
         // Negative fix
-        if(pd.cash.amount < 0) { 
+        if(pd.cash.amount < 0) {
             this.error_log('negative_cash: '+pd.cash.amount);
             pd.cash.amount = 0;
-        } 
-        if(pd.widgets.amount < 0) { 
+        }
+        if(pd.widgets.amount < 0) {
             this.error_log('negative_widgets: '+pd.widgets.amount);
             pd.widgets.amount = 0;
         }
@@ -1921,16 +1918,16 @@ function Game() {
         // Make widgets (meth)
         var make_amount = 0;
         for(var k in pd.clickers) {
-            var cl = pd.clickers[k]; 
+            var cl = pd.clickers[k];
             make_amount += cl.amount * cl.rps;
         }
         pd.stats.clicker_rps = make_amount;
         make_amount = make_amount / this_sub;
         do_make(make_amount * ticks);
-      
+
         // Sell widgets
         var sell_amount = 0;
-        for(var k in pd.sellers) { 
+        for(var k in pd.sellers) {
             var sl = pd.sellers[k];
             sell_amount += sl.amount * sl.rps;
         }
@@ -1941,14 +1938,14 @@ function Game() {
 
         // Safe-ify (launder) cash
         var safe_amount = 0;
-        for(var k in pd.banks) { 
+        for(var k in pd.banks) {
             var bn = pd.banks[k];
             safe_amount += bn.amount * bn.rps;
         }
         pd.stats.bank_rps = safe_amount;
         safe_amount = safe_amount / this_sub;
         pd.cash.safe += safe_amount * ticks;
-        if(pd.cash.safe > pd.cash.amount) { 
+        if(pd.cash.safe > pd.cash.amount) {
             pd.cash.safe = pd.cash.amount;
         }
 
@@ -1956,7 +1953,7 @@ function Game() {
     }
 
     // Earn cash
-    function earn_cash(n) { 
+    function earn_cash(n) {
         pd.cash.amount += n;
         return true;
     }
@@ -1965,36 +1962,36 @@ function Game() {
     function spend_cash(n) {
         if(n > (pd.cash.amount)) {
             return false;
-        } 
+        }
         pd.cash.amount -= n;
         pd.stats.total_spent += n;
         return true;
     }
 
     // Version check
-    this.check_version = function() { 
+    this.check_version = function() {
         $.get('/version.json',
-            function(data) { 
+            function(data) {
                 if(data.data.version) {
-                    if(data.data.version > pd.version) { 
+                    if(data.data.version > pd.version) {
                         $('#updated').show(500);
                     }
                 }
             }
-            
+
         ,"json");
     }
 
     // Calculate and return the player's risk level
-    function get_risk() { 
+    function get_risk() {
         var rsk = 0;
-        for(var k in pd.clickers) { 
-            if(pd.clickers[k].risk) { 
+        for(var k in pd.clickers) {
+            if(pd.clickers[k].risk) {
                 rsk += pd.clickers[k].risk * pd.clickers[k].amount;
             }
         }
-        for(var k in pd.sellers) { 
-            if(pd.sellers[k].risk) { 
+        for(var k in pd.sellers) {
+            if(pd.sellers[k].risk) {
                 rsk += pd.sellers[k].risk * pd.sellers[k].amount;
             }
         }
@@ -2002,21 +1999,21 @@ function Game() {
     }
     // Secondary risk levels, IRS in this case
     function get_risk2() {
-        if(pd.cash.amount <= 20000) { 
+        if(pd.cash.amount <= 20000) {
             return 0;
         }
-        if(pd.cash.safe > pd.cash.amount) { 
+        if(pd.cash.safe > pd.cash.amount) {
             return 0;
         }
         return 0.5 - (pd.cash.safe / pd.cash.amount);
     }
 
 
-    this.get_click_sell_amount = function() { 
+    this.get_click_sell_amount = function() {
         return pd.sell_amount + (pd.stats.seller_rps * pd.sell_rps_multiplier);
     }
 
-    this.get_click_make_amount = function() { 
+    this.get_click_make_amount = function() {
         return pd.make_amount + (pd.stats.clicker_rps * pd.make_rps_multiplier);
     }
 
@@ -2024,25 +2021,25 @@ function Game() {
         return pd.widget_roi;
     }
 
-    this.get_title = function() { 
+    this.get_title = function() {
         return pd.title;
     }
-    this.dump_pd = function(key) { 
+    this.dump_pd = function(key) {
         console.log(pd[key]);
     }
-    function get_item_cost(scl) { 
+    function get_item_cost(scl) {
         var cst = ((scl.amount + 1) * scl.base_cost) * (scl.amount + 1);
         // Double costs if > 10 are owned
-        if((scl.amount + 1) > 10) { 
+        if((scl.amount + 1) > 10) {
             cst *= 2;
         }
         return cst;
     }
 
-    function get_item_last_cost(scl) { 
+    function get_item_last_cost(scl) {
         var cst = ((scl.amount) * scl.base_cost) * (scl.amount);
         // Double costs if > 10 are owned
-        if(scl.amount > 10) { 
+        if(scl.amount > 10) {
             cst *= 2;
         }
         return cst;
@@ -2051,29 +2048,29 @@ function Game() {
     function get_item_sell_value(scl) {
         return get_item_last_cost(scl) * (pd.sell_return * pd.economy_roi);
     }
-    
-    function get_safe_cash() { 
+
+    function get_safe_cash() {
         if(pd.cash.safe > pd.cash.amount) {
             return pd.cash.amount;
-        } else { 
+        } else {
             return pd.cash.safe;
         }
     }
 
-    function get_unsafe_cash() { 
+    function get_unsafe_cash() {
         var unsafe = pd.cash.amount - pd.cash.safe;
         if(unsafe < 0) { unsafe = 0; }
         return unsafe;
     }
 
-    function get_hex_from_int(n) { 
+    function get_hex_from_int(n) {
         return n.toString(24);
     }
-    function get_int_from_hex(s) { 
+    function get_int_from_hex(s) {
         return parseInt(s, 24);
     }
-    
-    function pd_to_json() { 
+
+    function pd_to_json() {
         // Convert the current game state to a JSON object suitable for saves,
         // backups, etc.
         var sv = {
@@ -2087,9 +2084,9 @@ function Game() {
             'stats':pd.stats,
             'version':pd.version,
         };
-    
+
         // Banks
-        for(var k in pd.banks) { 
+        for(var k in pd.banks) {
             if(pd.banks[k].unlocked) {
                 sv.banks[k] = {
                     'amount':pd.banks[k].amount,
@@ -2097,68 +2094,68 @@ function Game() {
                 };
             }
         }
-        // Clickers 
-        for(var k in pd.clickers) { 
+        // Clickers
+        for(var k in pd.clickers) {
             sv.clickers[k] = {
                 'amount':pd.clickers[k].amount,
                 'unlocked':pd.clickers[k].unlocked,
             };
         }
         // Sellers
-        for(var k in pd.sellers) { 
+        for(var k in pd.sellers) {
             sv.sellers[k] = {
                 'amount':pd.sellers[k].amount,
                 'unlocked':pd.sellers[k].unlocked,
             };
         }
-        // Upgrades 
-        for(var k in pd.upgrades) { 
+        // Upgrades
+        for(var k in pd.upgrades) {
             sv.upgrades[k] = {
                 'purchased':pd.upgrades[k].purchased,
             };
         }
         return sv;
     }
-    function new_pd_to_json() { 
+    function new_pd_to_json() {
         var sdata = {
             'c':get_hex_from_int(Math.round(pd.cash.amount)),
             'cs':get_hex_from_int(Math.round(pd.cash.safe)),
             'w':get_hex_from_int(Math.round(pd.widgets.amount)),
         };
-       
+
         var unlockables = {
             "clickers":"cl",
             "sellers":"sl",
             "banks":"bn",
         };
-        for(var k in unlockables) { 
+        for(var k in unlockables) {
             var items = pd[k];
             var sk = unlockables[k];
             var tmpa = [];
-            for(var ik in items) { 
+            for(var ik in items) {
                 if(items[ik].unlocked) {
                     tmpa.push(
                         items[ik].sid
                         + ":" +
                         get_hex_from_int(items[ik].amount)
-                    ); 
+                    );
                 }
             }
             sdata[sk] = tmpa.join('|');
         }
         // Upgrades
         var tmpu = [];
-        for(var k in pd.upgrades) { 
+        for(var k in pd.upgrades) {
             var u = pd.upgrades[k];
-            if(u.purchased) { 
-                tmpu.push(u.sid); 
+            if(u.purchased) {
+                tmpu.push(u.sid);
             }
         }
         sdata['u'] = tmpu.join('|')
 
         // Stats
         var tmps = [];
-        for(var k in pd.stats) { 
+        for(var k in pd.stats) {
             tmps.push(k+':'
                 +get_hex_from_int(pd.stats[k])
             );
@@ -2168,28 +2165,28 @@ function Game() {
     }
 
 
-    function ac_to_json() { 
+    function ac_to_json() {
         // Convert achievements to a suitable state for save, backup, etc.
         var ac = [];
-        for(var k in pd.achievements) { 
-            if(pd.achievements[k].unlocked) { 
+        for(var k in pd.achievements) {
+            if(pd.achievements[k].unlocked) {
                 ac.push(k);
             }
         }
         return ac;
     }
 
-    function new_ac_to_json() { 
+    function new_ac_to_json() {
         var ac = [];
-        for(var k in pd.achievements) { 
-            if(pd.achievements[k].unlocked) { 
+        for(var k in pd.achievements) {
+            if(pd.achievements[k].unlocked) {
                 ac.push(pd.achievements[k].sid);
             }
         }
         return ac.join('|');
     }
 
-    function update_save_from_pd() { 
+    function update_save_from_pd() {
         localStorage.sv = JSON.stringify(pd_to_json());
         localStorage.ac = JSON.stringify(ac_to_json());
     }
@@ -2206,7 +2203,7 @@ function Game() {
         $.extend(pd.stats, sv.stats);
         // Banks
         if(sv.banks) {
-            for(var k in sv.banks) { 
+            for(var k in sv.banks) {
                 if(pd.banks[k]) {
                     pd.banks[k].amount = sv.banks[k].amount;
                     pd.banks[k].unlocked = sv.banks[k].unlocked;
@@ -2214,29 +2211,29 @@ function Game() {
             }
         }
         // Clickers
-        for(var k in sv.clickers) { 
+        for(var k in sv.clickers) {
             if(pd.clickers[k]) {
                 pd.clickers[k].amount = sv.clickers[k].amount;
                 pd.clickers[k].unlocked = sv.clickers[k].unlocked;
             }
         }
         // Sellers
-        for(var k in sv.sellers) { 
-            if(pd.sellers[k]) { 
+        for(var k in sv.sellers) {
+            if(pd.sellers[k]) {
                 pd.sellers[k].amount = sv.sellers[k].amount;
                 pd.sellers[k].unlocked = sv.sellers[k].unlocked;
             }
         }
         // Upgrades
-        for(var k in sv.upgrades) { 
-            if(pd.upgrades[k]) { 
-                if(sv.upgrades[k].purchased) { 
+        for(var k in sv.upgrades) {
+            if(pd.upgrades[k]) {
+                if(sv.upgrades[k].purchased) {
                     apply_upgrade(k);
                 }
             }
         }
     }
-    function new_update_pd_from_json(sv) { 
+    function new_update_pd_from_json(sv) {
         pd.cash.amount = get_int_from_hex(sv.c);
         if(sv.cs) { pd.cash.safe = get_int_from_hex(sv.cs); }
         pd.widgets.amount = get_int_from_hex(sv.w);
@@ -2249,15 +2246,15 @@ function Game() {
 
         for(var uk in unlockables) {
             var sk = unlockables[uk];
-            if(sv[sk]) { 
+            if(sv[sk]) {
                 var bns = sv[sk].split('|');
                 for(var i=0; i<bns.length; i++) {
                     var bid = bns[i].split(':');
                     for(var k in pd[uk]) {
-                        if(pd[uk][k].sid == bid[0]) { 
+                        if(pd[uk][k].sid == bid[0]) {
                             pd[uk][k].amount = get_int_from_hex(bid[1]);
                             pd[uk][k].unlocked = true;
-                        } 
+                        }
                     }
                 }
             }
@@ -2265,7 +2262,7 @@ function Game() {
 
         // Upgrades
         var upgs = sv.u.split('|');
-        for(var k in pd.upgrades) { 
+        for(var k in pd.upgrades) {
             var upg = pd.upgrades[k];
             if(upgs.indexOf(upg.sid) > -1) {
                 apply_upgrade(k);
@@ -2273,8 +2270,8 @@ function Game() {
         }
         // Stats
         var svs = sv.s.split('|');
-        for(var k in pd.stats) { 
-            for(var i=0; i<svs.length; i++) { 
+        for(var k in pd.stats) {
+            for(var i=0; i<svs.length; i++) {
                 var svsp = svs[i].split(':');
                 if(svsp[0] == k) {
                    pd.stats[k] = get_int_from_hex(svsp[1]);
@@ -2286,60 +2283,60 @@ function Game() {
     function update_ac_from_json(ac) {
         // Load a saved JSON object with achievements back into the game.
         for(var i=0; i<ac.length; i++) {
-            if(pd.achievements[ac[i]]) { 
+            if(pd.achievements[ac[i]]) {
                 pd.achievements[ac[i]].unlocked = true;
             }
         }
     }
     function new_update_ac_from_json(ac) {
         ac = ac.split('|');
-        for(var k in pd.achievements) { 
-            if(ac.indexOf(pd.achievements[k].sid) > -1) { 
+        for(var k in pd.achievements) {
+            if(ac.indexOf(pd.achievements[k].sid) > -1) {
                 pd.achievements[k].unlocked = true;
-            } 
+            }
         }
     }
 
-    function update_pd_from_save() { 
+    function update_pd_from_save() {
         // Achievements
-        if(localStorage.ac) { 
+        if(localStorage.ac) {
             var ac = $.parseJSON(localStorage.ac);
             update_ac_from_json(ac);
         }
 
-        if(localStorage.sv) { 
+        if(localStorage.sv) {
             var sv = $.parseJSON(localStorage.sv);
             update_pd_from_json(sv);
-        } 
+        }
     }
-    function new_update_pd_from_save() { 
+    function new_update_pd_from_save() {
         // Achievements
-        if(localStorage.ac2) { 
+        if(localStorage.ac2) {
             var ac = $.parseJSON(Base64.decode(localStorage.ac2));
             new_update_ac_from_json(ac);
         }
-        if(localStorage.sv2) { 
+        if(localStorage.sv2) {
             var sv = $.parseJSON(Base64.decode(localStorage.sv2));
             new_update_pd_from_json(sv);
-        } 
+        }
     }
 
-    /****************************************************************************** 
+    /******************************************************************************
      * ACTIONS
      */
 
     // Expose "add_cash" for cheaters
-    this.add_cash = function(n) { 
+    this.add_cash = function(n) {
         earn_cash(n);
         pd.stats.cheated_cash += n;
     }
 
     // Expose "add_widgets" for cheaters
-    this.add_widgets = function(n) { 
+    this.add_widgets = function(n) {
         pd.widgets.amount += n;
         pd.stats.cheated_widgets += n;
     }
-    
+
     this.do_save = function() {
         //update_save_from_pd();
         new_update_save_from_pd();
@@ -2347,8 +2344,8 @@ function Game() {
         track_page_view('/game_save');
     }
 
-    this.do_load = function() { 
-        if((localStorage.sv2)||(localStorage.ac2)) { 
+    this.do_load = function() {
+        if((localStorage.sv2)||(localStorage.ac2)) {
             //update_pd_from_save();
             new_update_pd_from_save();
             message('Game loaded!');
@@ -2367,13 +2364,13 @@ function Game() {
         message('Game exported!');
     }
 
-    this.do_import = function() { 
+    this.do_import = function() {
         var imptxt = $('#impexp').val();
-        if(!imptxt) { 
+        if(!imptxt) {
             return false;
         }
         if(imptxt == 'THANK YOU!') {
-            good_message('You have unlocked the "Thank You" hidden upgrade'); 
+            good_message('You have unlocked the "Thank You" hidden upgrade');
             apply_upgrade('donator_thanks');
             return;
         }
@@ -2384,65 +2381,65 @@ function Game() {
         message('Game imported!');
     }
 
-    this.do_reset = function() { 
+    this.do_reset = function() {
         localStorage.removeItem("sv2");
         message('Game reset');
         track_page_view('/game_reset');
         location.reload();
     }
-    this.do_reset_all = function() { 
+    this.do_reset_all = function() {
         localStorage.clear();
         message('Game reset - all');
         track_page_view('/game_reset_all');
         location.reload();
     }
 
-    this.do_reset_confirm = function() { 
+    this.do_reset_confirm = function() {
         var ok = confirm('Are you sure? You\'ll lose everything '
             + 'except Achievements.');
-        if(ok) { 
+        if(ok) {
             this.do_reset();
         }
     }
-    this.do_reset_all_confirm = function() { 
+    this.do_reset_all_confirm = function() {
         var ok = confirm('Are you sure? You\'ll lose everything, '
             + 'including Achievements.');
-        if(ok) { 
+        if(ok) {
             this.do_reset_all();
         }
     }
 
     function do_make(n) {
-        pd.widgets.amount += n;   
-        pd.stats.made_widgets += n; 
+        pd.widgets.amount += n;
+        pd.stats.made_widgets += n;
         return true;
     }
 
-    this.do_make_click = function() { 
+    this.do_make_click = function() {
         {% if not isapp %}
         var nw = (new Date).getTime();
-        if((nw - last_click) < 70) { 
+        if((nw - last_click) < 70) {
             return false;
         }
         last_click = nw;
         {% endif %}
         var amt = this.get_click_make_amount();
-        if(do_make(amt)) { 
+        if(do_make(amt)) {
             //message('You made '+pretty_int(pd.make_amount)+' '+pd.widgets.label);
             pd.stats.hand_made_widgets += amt;
             fix_make_sell();
         }
     }
 
-    function do_sell(n) { 
+    function do_sell(n) {
         if(pd.widgets.amount < 1) {
             return 0;
-        }         
+        }
         if(n > pd.widgets.amount) {
             n += (pd.widgets.amount - n);
-            if(n < 1) { 
+            if(n < 1) {
                 return 0;
-            } 
+            }
         }
         pd.stats.sold_widgets += n;
         pd.widgets.amount -= n;
@@ -2456,11 +2453,11 @@ function Game() {
         var nw = (new Date).getTime();
         if((nw - last_click) < 70) {
             return false;
-        } 
+        }
         last_click = nw;
         {% endif %}
         var sale = do_sell(this.get_click_sell_amount());
-        if(sale) { 
+        if(sale) {
             //message('You sold '+pretty_int(sale)+' '+pd.widgets.label);
             pd.stats.hand_sold_widgets += sale;
             fix_make_sell();
@@ -2469,11 +2466,11 @@ function Game() {
         return 0;
     }
 
-    function get_widget_quality() { 
+    function get_widget_quality() {
         var keys = Object.keys(pd.widgets.qualities).sort(function(a,b){return a-b});
-        for(var i=0; i<keys.length; i++) { 
+        for(var i=0; i<keys.length; i++) {
             var idx = keys[i];
-            if(pd.widget_roi > idx) { 
+            if(pd.widget_roi > idx) {
                 continue;
             }
             return pd.widgets.qualities[idx];
@@ -2482,16 +2479,16 @@ function Game() {
     }
 
 
-    /****************************************************************************** 
+    /******************************************************************************
      * BUY/SELL STUFF
      */
 
     this.buy_bank = function(key) {
         var bn = pd.banks[key];
-        if(!bn) { 
+        if(!bn) {
             return error('Invalid bank key');
         }
-        if(!spend_cash(bn.cost)) { 
+        if(!spend_cash(bn.cost)) {
             return false;
         }
         bn.amount += 1;
@@ -2500,9 +2497,9 @@ function Game() {
         return true;
     }
 
-    this.sell_bank = function(key) { 
+    this.sell_bank = function(key) {
         var bn = pd.banks[key];
-        if(bn.amount < 1) { 
+        if(bn.amount < 1) {
             return false;
         }
         var sell_val = get_item_sell_value(bn);
@@ -2513,9 +2510,9 @@ function Game() {
         return true;
     }
 
-    this.buy_clicker = function(key) { 
+    this.buy_clicker = function(key) {
         var cl = pd.clickers[key];
-        if(!spend_cash(cl.cost)) { 
+        if(!spend_cash(cl.cost)) {
             return false;
         }
         cl.amount += 1;
@@ -2525,9 +2522,9 @@ function Game() {
         return true;
     }
 
-    this.sell_clicker = function(key) { 
+    this.sell_clicker = function(key) {
         var cl = pd.clickers[key];
-        if(cl.amount < 1) { 
+        if(cl.amount < 1) {
             return false;
         }
         var sell_val = get_item_sell_value(cl);
@@ -2538,9 +2535,9 @@ function Game() {
         return true;
     }
 
-    this.buy_seller = function(key) { 
+    this.buy_seller = function(key) {
         var sl = pd.sellers[key];
-        if(!spend_cash(sl.cost)) { 
+        if(!spend_cash(sl.cost)) {
             return false;
         }
         sl.amount += 1;
@@ -2550,9 +2547,9 @@ function Game() {
         return true;
     }
 
-    this.sell_seller = function(key) { 
+    this.sell_seller = function(key) {
         var sl = pd.sellers[key];
-        if(sl.amount < 1) { 
+        if(sl.amount < 1) {
             return false;
         }
         var sell_val = get_item_sell_value(sl);
@@ -2563,59 +2560,59 @@ function Game() {
         return true;
     }
 
-    this.buy_upgrade = function(key) { 
+    this.buy_upgrade = function(key) {
         var upg = pd.upgrades[key];
         var unl = apply_upgrade(key);
-        if(!unl) { 
+        if(!unl) {
             return false;
         }
         if(!spend_cash(upg.cost)) {
-            return false; 
-        } 
+            return false;
+        }
         message('You have unlocked '+upg.label+' for $'+pretty_bigint(upg.cost));
         track_page_view('/game_buy_upgrade');
         fix_upgrades();
     }
 
-    function apply_upgrade(key) { 
+    function apply_upgrade(key) {
         var upg = pd.upgrades[key];
-        if(!upg) { 
-            return false; 
+        if(!upg) {
+            return false;
         }
-        if(upg.purchased) { 
+        if(upg.purchased) {
             return false;
         }
         upg.purchased = true;
         var act_parts = upg.action.split('.');
-        if(act_parts.length == 1) { 
+        if(act_parts.length == 1) {
             pd[act_parts[0]] += upg.mod;
         } else if(act_parts.length == 2) {
             pd[act_parts[0]][act_parts[1]] += upg.mod;
-        } else if(act_parts.length == 3) { 
+        } else if(act_parts.length == 3) {
             pd[act_parts[0]][act_parts[1]][act_parts[2]] += upg.mod;
         }
 
         return true;
     }
 
-    function unlock_achievement(key) { 
+    function unlock_achievement(key) {
         var ac = pd.achievements[key];
-        if(!ac) { 
+        if(!ac) {
             return false;
         }
-        if(ac.unlocked) { 
-            return false; 
+        if(ac.unlocked) {
+            return false;
         }
         ac.unlocked = true;
         good_message('You have earned a new achievement: <em>'+ac.label+'</em>');
         return true;
     }
 
-    /****************************************************************************** 
-     * FIX DISPLAY 
+    /******************************************************************************
+     * FIX DISPLAY
      */
 
-    function fix_display() { 
+    function fix_display() {
         fix_unlocks();
         fix_clickers();
         fix_sellers();
@@ -2624,27 +2621,27 @@ function Game() {
         fix_title();
         fix_risk();
         fix_achievements();
-        fix_banks(); 
+        fix_banks();
     }
 
     function fix_achievements() {
-        if(active_tab != 'achievements') { 
+        if(active_tab != 'achievements') {
             return false;
         }
-        for(var k in pd.achievements) { 
+        for(var k in pd.achievements) {
             var ac = pd.achievements[k];
             var el = $('#'+k);
             var el_lbl = $('#'+k+'_lbl');
             if((ac.hidden)&&(!ac.unlocked)) {
-                el.addClass('hidden'); 
+                el.addClass('hidden');
                 continue;
             }
-            if(ac.unlocked) { 
+            if(ac.unlocked) {
                 el.removeClass('hidden');
                 el.removeClass('semi_trans');
                 el_lbl.addClass('purchased');
                 el.removeClass('locked');
-            } else { 
+            } else {
                 el.addClass('locked');
                 el.addClass('semi_trans');
             }
@@ -2653,8 +2650,8 @@ function Game() {
     }
 
     function fix_banks() {
-        if(active_tab != 'banks') { 
-            return; 
+        if(active_tab != 'banks') {
+            return;
         }
 
         $('#bank_rps').html(pretty_bigint(pd.stats.bank_rps));
@@ -2669,36 +2666,36 @@ function Game() {
             var el_cst = $('#'+k+'_cst');
             var el_amt = $('#'+k+'_amt');
             var el_rps = $('#'+k+'_rps');
-        
+
             el_amt.html(pretty_int(bn.amount));
             el_cst.html(pretty_bigint(bn.cost));
             el_rps.html(pretty_bigint(bn.rps));
 
-            if((!bn.unlocked)) { 
+            if((!bn.unlocked)) {
                 el.addClass('hidden');
                 continue;
             }
-            
+
             if(pd.cash.amount < bn.cost) {
                 el_btn.attr('disabled',true);
-            } else { 
+            } else {
                 el_btn.attr('disabled',false);
             }
 
             if(bn.amount < 1) {
                 el_sell_btn.attr('disabled',true);
-            } else { 
+            } else {
                 el_sell_btn.attr('disabled',false);
             }
-                
+
             el.removeClass('hidden');
         }
     }
 
-    function fix_risk() { 
+    function fix_risk() {
         pd.risk_amount = get_risk();
         pd.risk2_amount = get_risk2();
-        $('#risk_amount').html(pretty_int(pd.risk_amount * 100)); 
+        $('#risk_amount').html(pretty_int(pd.risk_amount * 100));
         $('#risk2_amount').html(pretty_int(pd.risk2_amount * 100));
         var el_lvl = $('#risk_level');
         var el_lvl2 = $('#risk2_level');
@@ -2709,31 +2706,31 @@ function Game() {
                 el_lvl.html(pd.risk_levels[i].label);
                 slvl = true;
             }
-            if((pd.risk2_amount < pd.risk_levels[i].level) && (!slvl2)) { 
+            if((pd.risk2_amount < pd.risk_levels[i].level) && (!slvl2)) {
                 el_lvl2.html(pd.risk_levels[i].label);
                 slvl2 = true;
             }
         }
-        
+
     }
 
-    function fix_saved() { 
+    function fix_saved() {
         last_saved += 1;
         $('#last_saved').html('Game saved '+last_saved+' seconds ago');
     }
 
-    function fix_title() { 
+    function fix_title() {
         document.title = '$'+pretty_bigint(pd.cash.amount)+' | '+pd.title;
     }
 
-    function fix_make_sell() { 
+    function fix_make_sell() {
         $('#sell_btn').html(pd.cash.action_label);
         $('#sell_lbl').html(pd.cash.label);
         $('#sell_amt').html(pretty_int(pd.cash.amount));
         $('#sell_roi').html(pd.widget_roi.toFixed(2));
         $('#safe_cash').html(pretty_int(get_safe_cash()));
         var sell_rate = pd.stats.seller_rps;
-        if((pd.stats.seller_rps > pd.stats.clicker_rps)&&(pd.widgets.amount < pd.stats.seller_rps)) { 
+        if((pd.stats.seller_rps > pd.stats.clicker_rps)&&(pd.widgets.amount < pd.stats.seller_rps)) {
             sell_rate = pd.stats.clicker_rps;
         }
         $('#seller_rps').html(pretty_int(sell_rate * pd.widget_roi));
@@ -2748,8 +2745,8 @@ function Game() {
     function fix_clickers() {
         if(active_tab != 'clickers') {
             return false;
-        } 
-        for(var k in pd.clickers) { 
+        }
+        for(var k in pd.clickers) {
             var el = $('#'+k);
             var el_btn = $('#'+k+'_btn');
             var el_sell_btn = $('#'+k+'_sell_btn');
@@ -2759,22 +2756,22 @@ function Game() {
             var el_rsk = $('#'+k+'_rsk');
 
             var cl = pd.clickers[k];
-            if(cl.amount > 0) { 
+            if(cl.amount > 0) {
                 el_sell_btn.attr('disabled', false);
-            } else { 
+            } else {
                 el_sell_btn.attr('disabled', true);
             }
-            
-            cl.cost = get_item_cost(cl); 
-            
-            if(cl.cost > pd.cash.amount) { 
+
+            cl.cost = get_item_cost(cl);
+
+            if(cl.cost > pd.cash.amount) {
                 el_btn.attr('disabled', true);
-            } else { 
+            } else {
                 el_btn.attr('disabled', false);
             }
-            if(!cl.unlocked) { 
+            if(!cl.unlocked) {
                 el.addClass('hidden');
-            } else { 
+            } else {
                 el.removeClass('hidden');
             }
             el_cst.html(pretty_bigint(cl.cost));
@@ -2785,10 +2782,10 @@ function Game() {
     }
 
     function fix_sellers() {
-        if(active_tab != 'sellers') { 
+        if(active_tab != 'sellers') {
             return;
-        } 
-        for(var k in pd.sellers) { 
+        }
+        for(var k in pd.sellers) {
             var el = $('#'+k);
             var el_btn = $('#'+k+'_btn');
             var el_sell_btn = $('#'+k+'_sell_btn');
@@ -2799,22 +2796,22 @@ function Game() {
 
             var sl = pd.sellers[k];
 
-            if(sl.amount < 1) { 
+            if(sl.amount < 1) {
                 el_sell_btn.attr('disabled', true);
-            } else { 
+            } else {
                 el_sell_btn.attr('disabled', false);
             }
 
             sl.cost = get_item_cost(sl);
 
             if(sl.cost > pd.cash.amount) {
-                el_btn.attr('disabled', true); 
-            } else { 
+                el_btn.attr('disabled', true);
+            } else {
                 el_btn.attr('disabled', false);
             }
-            if(!sl.unlocked) { 
+            if(!sl.unlocked) {
                 el.addClass('hidden');
-            } else { 
+            } else {
                 el.removeClass('hidden');
             }
             el_cst.html(pretty_bigint(sl.cost));
@@ -2827,11 +2824,11 @@ function Game() {
     function fix_unlocks() {
         // Clickers
         var cl_unl = 0;
-        var cl_tot = 0; 
-        for(var k in pd.clickers) { 
+        var cl_tot = 0;
+        for(var k in pd.clickers) {
             cl_tot += 1;
             var cl = pd.clickers[k];
-            if(cl.unlock_rps <= pd.stats.seller_rps) { 
+            if(cl.unlock_rps <= pd.stats.seller_rps) {
                 cl.unlocked = true;
                 cl_unl += 1;
             }
@@ -2842,12 +2839,12 @@ function Game() {
         // Sellers
         var sl_unl = 0;
         var sl_tot = 0;
-        for(var k in pd.sellers) { 
+        for(var k in pd.sellers) {
             sl_tot += 1;
             var sl = pd.sellers[k];
             if(sl.unlock_rps <= pd.stats.seller_rps) {
                 sl_unl += 1;
-                sl.unlocked = true;        
+                sl.unlocked = true;
             }
         }
         $('#sellers_unlocked').html(pretty_int(cl_unl));
@@ -2856,10 +2853,10 @@ function Game() {
         // Banks
         var bn_unl = 0;
         var bn_tot = 0;
-        for(var k in pd.banks) { 
+        for(var k in pd.banks) {
             bn_tot += 1;
             var bn = pd.banks[k];
-            if((bn.unlock_rps <= pd.stats.seller_rps)||(bn.unlocked)) { 
+            if((bn.unlock_rps <= pd.stats.seller_rps)||(bn.unlocked)) {
                 bn_unl += 1;
                 bn.unlocked = true;
             }
@@ -2870,12 +2867,12 @@ function Game() {
         // Achievements
         var ac_unl = 0;
         var ac_tot = 0;
-        for(var k in pd.achievements) { 
+        for(var k in pd.achievements) {
             var ac = pd.achievements[k];
-            if((!ac.unlocked)&&(ac.hidden)) { 
+            if((!ac.unlocked)&&(ac.hidden)) {
                 continue;
             }
-            if(ac.unlocked) { 
+            if(ac.unlocked) {
                 ac_unl += 1;
             }
             ac_tot += 1;
@@ -2887,40 +2884,40 @@ function Game() {
 
     function fix_upgrades() {
         var up_tot = 0;
-        var up_unl = 0; 
+        var up_unl = 0;
         for(var k in pd.upgrades) {
-            var el = $('#'+k); 
+            var el = $('#'+k);
             var el_btn = $('#'+k+'_btn');
             var el_cst = $('#'+k+'_cst');
             var upg = pd.upgrades[k];
 
-            if((upg.prereq)) { 
+            if((upg.prereq)) {
                 var req = pd.upgrades[upg.prereq];
                 if((req)&&(!req.purchased)) {
                     up_tot += 1;
                     el.addClass('hidden');
                     continue;
-                } 
-            } 
+                }
+            }
 
-            if((upg.prereq == 'hidden')&&(!upg.purchased)) { 
+            if((upg.prereq == 'hidden')&&(!upg.purchased)) {
                 el.addClass('hidden');
                 continue;
-            } else { 
-                up_tot += 1;  
-            }  
-            
-            if(upg.purchased) { 
+            } else {
+                up_tot += 1;
+            }
+
+            if(upg.purchased) {
                 el_btn.addClass('hidden');
                 $('#'+k+'_lbl').addClass('purchased');
                 el_cst.html('&#10004;');
                 up_unl += 1;
-            } else { 
+            } else {
                 el_cst.html('$'+pretty_bigint(upg.cost));
             }
-            if(pd.cash.amount < upg.cost) { 
+            if(pd.cash.amount < upg.cost) {
                 el_btn.attr('disabled', true);
-            } else { 
+            } else {
                 el_btn.attr('disabled', false);
             }
             el.removeClass('hidden');
@@ -2933,12 +2930,12 @@ function Game() {
     function fix_stats() {
         pd.stats.seconds_played += 1;
         pd.stats.bought_upgrades = 0;
-        for(var k in pd.upgrades) { 
-            if(pd.upgrades[k].purchased) { 
+        for(var k in pd.upgrades) {
+            if(pd.upgrades[k].purchased) {
                 pd.stats.bought_upgrades += 1;
             }
         }
-        
+
         if(active_tab != 'misc') { return; }
         $('#hand_made_widgets').html(pretty_bigint(pd.stats.hand_made_widgets));
         $('#made_widgets').html(pretty_bigint(pd.stats.made_widgets));
@@ -2952,23 +2949,23 @@ function Game() {
         $('#click_make_amount').html(pretty_int(pd.make_amount));
     }
 
-    /****************************************************************************** 
-     * SETUP DISPLAY 
+    /******************************************************************************
+     * SETUP DISPLAY
      */
 
     this.setup_display = function() {
-        setup_clickers(); 
+        setup_clickers();
         setup_sellers();
-        setup_upgrades();   
+        setup_upgrades();
         setup_banks();
         setup_achievements();
     }
 
-    function setup_achievements() { 
+    function setup_achievements() {
        var sortlist = [];
-        for(var k in pd.achievements) { 
+        for(var k in pd.achievements) {
             sortlist.push([k, pd.achievements[k].group]);
-        } 
+        }
         var sorted = sortlist.sort(function(x,y) { return x[1] - y[1] });
         var ac_el = $('#achievements');
         ac_el.html('');
@@ -2980,14 +2977,14 @@ function Game() {
             var data = {'ac':ac, 'id':k};
             var html = Mustache.to_html(template, data);
             ac_el.prepend(html);
-        }    
+        }
     }
 
     function setup_banks() {
        var sortlist = [];
-        for(var k in pd.banks) { 
+        for(var k in pd.banks) {
             sortlist.push([k, pd.banks[k].cost]);
-        } 
+        }
         var sorted = sortlist.sort(function(x,y) { return x[1] - y[1] });
         var bn_el = $('#banks');
         bn_el.html('');
@@ -3002,16 +2999,16 @@ function Game() {
         }
     }
 
-    function setup_clickers() { 
+    function setup_clickers() {
         var sortlist = [];
-        for(var k in pd.clickers) { 
+        for(var k in pd.clickers) {
             sortlist.push([k, pd.clickers[k].base_cost]);
-        } 
+        }
         var sorted = sortlist.sort(function(x,y) { return x[1] - y[1] });
 
         var cs_el = $('#clickers');
         cs_el.html('');
-        
+
         for(var i in sorted) {
             var k = sorted[i][0];
             var cl = pd.clickers[k];
@@ -3022,16 +3019,16 @@ function Game() {
         }
     }
 
-    function setup_sellers() { 
+    function setup_sellers() {
         var sortlist = [];
-        for(var k in pd.sellers) { 
+        for(var k in pd.sellers) {
             sortlist.push([k, pd.sellers[k].base_cost]);
-        } 
+        }
         var sorted = sortlist.sort(function(x,y) { return x[1] - y[1] });
 
         var sl_el = $('#sellers');
         sl_el.html('');
-        
+
         for(var i in sorted) {
             var k = sorted[i][0];
             var sl = pd.sellers[k];
@@ -3044,14 +3041,14 @@ function Game() {
 
     function setup_upgrades() {
         var sortlist = [];
-        for(var k in pd.upgrades) { 
+        for(var k in pd.upgrades) {
             sortlist.push([k, pd.upgrades[k].cost]);
-        } 
+        }
         var sorted = sortlist.sort(function(x,y) { return x[1] - y[1] });
         var upgs_el = $('#upgrades');
         upgs_el.html('');
 
-        for(var i in sorted) { 
+        for(var i in sorted) {
             var k = sorted[i][0];
             var upg = pd.upgrades[k];
             var template = $('#tpl_upgrade').html();
@@ -3066,39 +3063,39 @@ function Game() {
      */
 
     function check_achievements() {
-        for(var k in pd.achievements) { 
+        for(var k in pd.achievements) {
             var a = pd.achievements[k];
-            if(a.unlocked) { 
+            if(a.unlocked) {
                 continue;
             }
             var pps = a.property.split('.');
             var val = pd;
-            for(var i = 0; i<pps.length; i++) { 
+            for(var i = 0; i<pps.length; i++) {
                 val = val[pps[i]];
             }
-            if((val === true)&&(val === a.required)) { 
+            if((val === true)&&(val === a.required)) {
                 unlock_achievement(k);
             }
             else if((val)&&((a.required >= 0 && val >= a.required)||(a.required < 0 && val <= a.required))) {
                 unlock_achievement(k);
-            } 
+            }
         }
     }
 
     /*******************************************************************************
-     * EVENTS 
+     * EVENTS
      */
 
     this.check_events = function() {
-        for(var k in pd.events) { 
+        for(var k in pd.events) {
             var rnd = Math.random();
-            if(pd.events[k].chance > rnd) { 
+            if(pd.events[k].chance > rnd) {
                 run_event(k);
             }
-        } 
+        }
     }
 
-    function run_event(evk) { 
+    function run_event(evk) {
         if(pd.events[evk]) {
             eval(pd.events[evk].action);
         }
@@ -3107,25 +3104,25 @@ function Game() {
     // Custom Events ---------------------------------------------------------------
 
     // IRS audit - small; n = % of cash
-    function event_irs_audit(n) { 
+    function event_irs_audit(n) {
         var rsk = get_risk2();
-        if(rsk < Math.random()) { 
-            good_message('You were able to avoid an IRS audit');
+        if(rsk < Math.random()) {
+            good_message('Pudiste esquivar una nueva causa por corrupción');
             return;
         }
         var amt = pd.cash.amount * n;
         amt -= get_safe_cash();
         if(amt < 1) {
-            good_message('The IRS was unable to find any unlaundered cash to seize');
+            good_message('No pudieron vincularte a ninguna causa por lavado');
             return;
         }
         pd.cash.amount -= amt;
-        bad_message('The IRS has confiscated $'+pretty_bigint(amt)+' of your funds');
+        bad_message('El juicio te va a costar $'+pretty_bigint(amt)+' de tu bóveda');
     }
 
 
     // Meth found, meth per second * r
-    function event_found_meth(r) { 
+    function event_found_meth(r) {
         var amt = pd.stats.clicker_rps * r;
         if(amt < 100) { amt = 100; }
         pd.widgets.amount += amt;
@@ -3134,34 +3131,34 @@ function Game() {
     }
 
     // Cash found, cash per second * r
-    function event_found_cash(r) { 
+    function event_found_cash(r) {
         var amt = (pd.stats.seller_rps * pd.widget_roi) * r;
         if(amt < 100) { amt = 100; }
         earn_cash(amt);
-        if(amt > 10000000000) { 
-            good_message('A mystery benefactor has contributed $'
-                +pretty_bigint(amt)+' to your cause');
+        if(amt > 10000000000) {
+          good_message('Ahorramos $'
+              +pretty_int(amt)+' cortando la inversión en la red eléctrica!');
             return;
         }
-        if(amt > 10000000) { 
-            good_message('You found a truck load of cash, containing $'
-                +pretty_bigint(amt)+' inside!');
+        if(amt > 10000000) {
+            good_message('Moreno apretó a los empresarios y les sacó $'
+                +pretty_bigint(amt)+'!');
             return;
         }
-        if(amt > 100000) { 
-            good_message('You found a briefcase with $'+pretty_int(amt)+' inside!');
+        if(amt > 100000) {
+            good_message('Antonini Wilson trajo una valija con $'+pretty_int(amt)+' adentro!');
             return;
         }
-        good_message('You found some extra cash hidden in a shoe box, worth $'
-            +pretty_int(amt)+'!');
+        good_message('Un donante anónimo de Defaultzuela contribuyo con $'
+            +pretty_bigint(amt)+' a tu causa');
     }
     // Meth lost, meth made per second * r
-    function event_lose_meth(r) { 
+    function event_lose_meth(r) {
         var amt = (pd.stats.clicker_rps * r);
-        if(amt < 1) { 
+        if(amt < 1) {
             return false;
         }
-        if(amt > pd.widgets.amount) { 
+        if(amt > pd.widgets.amount) {
             amt = pd.widgets.amount;
         }
         pd.widgets.amount -= amt;
@@ -3170,56 +3167,56 @@ function Game() {
     }
 
     // Cash lost, cash income per second * r
-    function event_lose_cash(r) { 
+    function event_lose_cash(r) {
         var amt = (pd.stats.seller_rps * pd.widget_roi) * r;
         amt -= get_safe_cash();
-        if(amt < 1) { 
+        if(amt < 1) {
             return false;
         }
-        if(amt > pd.cash.amount) { 
+        if(amt > pd.cash.amount) {
             amt = pd.cash.amount;
         }
         pd.cash.amount -= amt;
-        bad_message('According to accounting, $'+pretty_bigint(amt)+' has been "lost"');
+        bad_message('Hubo que pagarle $'+pretty_bigint(amt)+' a los artístas para que hablen bien del gobierno');
         return true;
     }
 
     // Rivals seize cash, cash income per second * r
-    function event_rival_lose_cash(r) { 
+    function event_rival_lose_cash(r) {
         var amt = (pd.stats.seller_rps * pd.widget_roi) * r;
         amt -= get_safe_cash();
-        if(amt < 1) { 
+        if(amt < 1) {
             return false;
         }
-        if(amt > pd.cash.amount) { 
+        if(amt > pd.cash.amount) {
             amt = pd.cash.amount;
         }
         pd.cash.amount -= amt;
-        bad_message('A rival cartel has hijacked a sale worth $'+pretty_bigint(amt)+'!');
+        bad_message('Desapareció un bolso con $'+pretty_bigint(amt)+'!');
         return true;
     }
 
     // Pay bribe, cash income per second * r
-    function event_pay_bribe(r) { 
+    function event_pay_bribe(r) {
         var amt = (pd.stats.seller_rps * pd.widget_roi) * r;
         amt -= get_safe_cash();
-        if(amt < 1) { 
+        if(amt < 1) {
             return false;
         }
-        if(amt > pd.cash.amount) { 
+        if(amt > pd.cash.amount) {
             amt = pd.cash.amount;
         }
         pd.cash.amount -= amt;
-        bad_message('You had to pay off a government official with $'+pretty_bigint(amt));
+        bad_message('El costo de los micros + chori y vino fue de  $'+pretty_bigint(amt));
         return true;
     }
 
     // Seize cash * n
-    function event_dea_seize_cash(n) { 
+    function event_dea_seize_cash(n) {
         var amt = (pd.cash.amount * n);
         amt -= get_safe_cash();
-        if(amt < 1) { 
-            good_message('The DEA was unable to seize any cash');
+        if(amt < 1) {
+            good_message('Macri no nos pudo sacar ningún voto!');
             return false;
         }
         pd.cash.amount -= amt;
@@ -3237,9 +3234,9 @@ function Game() {
                 return false;
             }
             var picks = [];
-            for(var k in pd.clickers) { 
+            for(var k in pd.clickers) {
                 var cl = pd.clickers[k];
-                if((cl.amount > 0) && (cl.risk > 0.001)) { 
+                if((cl.amount > 0) && (cl.risk > 0.001)) {
                     picks.push(k);
                 }
             }
@@ -3262,30 +3259,30 @@ function Game() {
 
 
 /*******************************************************************************
- * Messaging 
+ * Messaging
  */
 
-function add_message(msg, _type) { 
+function add_message(msg, _type) {
     var el = $("<div></div>");
     el.html(msg);
     el.addClass(_type);
     $('#last_message').html($(el).clone().wrap('<p>').parent().html());
     $('#messages').prepend(el);
     //el.fadeOut(100000);
-    if($('#messages div').length > 45) { 
+    if($('#messages div').length > 45) {
         $('#messages div:last').remove();
     }
 }
-function error(msg) { 
-    add_message('&#10007; '+msg, 'error');    
+function error(msg) {
+    add_message('&#10007; '+msg, 'error');
 }
-function message(msg) { 
+function message(msg) {
     add_message('&#9993; '+msg, 'message');
 }
-function good_message(msg) { 
+function good_message(msg) {
     add_message('&#9733; '+msg, 'good_message');
 }
-function bad_message(msg) { 
+function bad_message(msg) {
     add_message('&#10007; '+msg, 'bad_message');
 }
 
@@ -3302,55 +3299,55 @@ function switch_tab(tbid) {
     return false;
 }
 
-function toggle_tab(tbid) { 
+function toggle_tab(tbid) {
     $('#'+tbid+'_div').toggle(200);
     return false;
 }
 
-function pretty_bigint(num) { 
+function pretty_bigint(num) {
     var sn = '';
-    if(num >= 1000000000000000000000000) { 
+    if(num >= 1000000000000000000000000) {
         return pretty_int(num)
-    }    
-    if(num >= 1000000000000000000000) { 
+    }
+    if(num >= 1000000000000000000000) {
         sn = Math.round((num / 1000000000000000000000) * 100) / 100;
         return sn + 'S';
     }
-    if(num >= 1000000000000000000) { 
+    if(num >= 1000000000000000000) {
         sn = Math.round((num / 1000000000000000000) * 100) / 100;
         return sn + 'Qt';
     }
-    if(num >= 1000000000000000) { 
+    if(num >= 1000000000000000) {
         sn = Math.round((num / 1000000000000000)*100) / 100;
         return sn + 'Q';
     }
-    if(num >= 1000000000000) { 
+    if(num >= 1000000000000) {
         sn = Math.round((num / 1000000000000) * 100) / 100;
         return sn + 'T';
     }
-    if(num >= 1000000000) { 
+    if(num >= 1000000000) {
         sn = Math.round((num / 1000000000) * 100) / 100;
         return sn + 'B';
     }
-    if(num >= 1000000) { 
+    if(num >= 1000000) {
         sn = Math.round((num / 1000000) * 100) / 100;
         return sn + 'M';
-    } 
+    }
     return pretty_int(num);
 }
 
 function pretty_int(num) {
-    if(num < 1000) { 
+    if(num < 1000) {
         num = Math.round(num * 10) / 10;
-    } else { 
+    } else {
         num = Math.round(num);
     }
-    var num_str = num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","); 
+    var num_str = num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
     return num_str;
 }
 
 // Analytics
-function track_page_view(pg) { 
+function track_page_view(pg) {
     if(has_gaq) {
         _gaq.push(['_trackPageview',pg]);
         return true;
@@ -3360,14 +3357,14 @@ function track_page_view(pg) {
 
 function track_event(category, action, message) {
     return false;
-    if(has_gaq) { 
+    if(has_gaq) {
         _gaq.push(['_trackEvent', category, action, message]);
         return true;
-    } 
+    }
     return false;
 }
 
-function log(type, msg, data) { 
+function log(type, msg, data) {
     var obj = null;
     if(data) { obj = data; }
     remote_log({
@@ -3380,11 +3377,11 @@ function log(type, msg, data) {
     console.log(type.toUpperCase()+': '+msg);
 }
 
-function warning_log(msg, data) { 
+function warning_log(msg, data) {
     log('warning',msg,data);
 }
 
-function debug_log(msg, data) { 
+function debug_log(msg, data) {
     log('debug',msg,data);
 }
 
@@ -3393,11 +3390,9 @@ function error_log(msg, data) {
 }
 
 function remote_log(data) {
-    if(has_loggly) { 
+    if(has_loggly) {
         _LTracker.push(data);
         return true;
     }
     return false;
 }
-
-
