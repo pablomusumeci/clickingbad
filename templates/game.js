@@ -160,9 +160,9 @@ function Game() {
                 20: 'NEGRO',
                 25: 'Repetidores de 678',
                 50: 'Militonto',
-                100: 'FDA Approved Additive',
-                159: 'Atomically Perfect',
-                211: 'Holy',
+                100: 'Barrabrava del ascenso',
+                159: 'Caracumbia',
+                211: 'El Diego pasado de merca',
                 300: 'Angelic',
                 1000: 'Nectar of The Gods',
             },
@@ -226,9 +226,9 @@ function Game() {
                 'sid':'b5',
             },
             'b_car_wash':{
-                'label':'Car Wash',
+                'label':'Austral Construcciones',
                 'amount':0,
-                'description':'Launder cash through an overpriced car wash',
+                'description':'Sobreprecio en la obra publica',
                 'rps':220000,
                 'unlock_rps':5000,
                 'cost':100000000,
@@ -237,9 +237,9 @@ function Game() {
                 'sid':'b6',
             },
             'b_donations':{
-                'label':'Online Donations',
+                'label':'Hotesur',
                 'amount':0,
-                'description':'Launder cash through an online donation network',
+                'description':'Un hotel tan lleno que parece vacio',
                 'rps':5200000,
                 'unlock_rps':50000,
                 'cost':500000000,
@@ -248,9 +248,9 @@ function Game() {
                 'sid':'b7',
             },
             'b_offshore': {
-                'label':'Offshore Account',
+                'label':'Venderle cosechadoras a Angola',
                 'amount':0,
-                'description':'Launder cash using an offshore finance account',
+                'description':'http://www.cronista.com/economiapolitica/Bochornoso-final-para-la-fabrica-de-cosechadoras-que-el-Gobierno-presento-como-ejemplo-en-Angola-20140403-0100.html',
                 'rps':60000000,
                 'unlock_rps':500000,
                 'cost':4500000000,
@@ -405,7 +405,7 @@ function Game() {
             },
             '10_under_lab': {
                 'label':'Aerolineas Argentinas',
-                'description':'Recaudando coimas en Ezeiza por los iPhones traidos de Miami',
+                'description':'Nos vamos todos Miami',
                 'amount':0,
                 'risk':0.005,
                 'rps':2000,
@@ -542,8 +542,8 @@ function Game() {
         // DISTRIBUTION
         'sellers':{
             '01_dealer':{
-                'label':'Austral Construcciones',
-                'description':'TODO: ',
+                'label':'Ponerle Nestor a una calle',
+                'description':'Podes terminar viviendo en Nestor Kirchner entre Eternestor y Nestornauta',
                 'amount':0,
                 'risk':0.03,
                 'rps':.2,
@@ -554,8 +554,8 @@ function Game() {
                 'sid':'s1',
             },
             '03_drug_mule':{
-                'label':'Hotesur',
-                'description':'Un hotel tan lleno que parece vacio',
+                'label':'Propaganda partidaria en el futbol',
+                'description':'Financiemos a nuestro partido con arcas del estado',
                 'amount':0,
                 'risk':0.005,
                 'rps':1,
@@ -590,8 +590,8 @@ function Game() {
                 'sid':'s4',
             },
             '04_club':{
-                'label':'Night Club',
-                'description':'Purchase a run down night club and sell your classy product to the patrons',
+                'label':'Relagar netbooks',
+                'description':'Porque los pibes las van a usar para jugar al Counter pero queda muy progre',
                 'amount':0,
                 'risk':0.05,
                 'rps':100,
@@ -602,8 +602,8 @@ function Game() {
                 'sid':'s5',
             },
             '05_cartel':{
-                'label':'Drug Cartel',
-                'description':'Drug cartels can move a lot of product, but their services are not free',
+                'label':'Moreno patoteador',
+                'description':'Mantiene el control de precios pero el riesgo de hacer un papelon es alto',
                 'amount':0,
                 'risk':0.10,
                 'rps':400,
@@ -614,8 +614,8 @@ function Game() {
                 'sid':'s6',
             },
             '07_dea':{
-                'label':'DEA Mole',
-                'description':'Hire a DEA informant, which allows for increased and discreet distribution while reducing risk',
+                'label':'Panama Papers',
+                'description':'Baja el riesgo de que gane Mugricio sacando a la luz sus negocios turbio',
                 'amount':0,
                 'risk':-0.05,
                 'rps':1000,
@@ -626,8 +626,8 @@ function Game() {
                 'sid':'s7',
             },
             '09_diplomat':{
-                'label':'Foreign Diplomat',
-                'description':'Hire a foreign diplomat to partner with the best drug pushers in their respective countries and reduce risk',
+                'label':'Esconder bolsos en un convento',
+                'description':'Nadie va a sospechar de las indefensas monjitas',
                 'amount':0,
                 'risk':-0.05,
                 'rps':5000,
@@ -638,8 +638,8 @@ function Game() {
                 'sid':'s8',
             },
             '11_city_police':{
-                'label':'City Police Force',
-                'description':'Pay off an entire city police force. All of them, even the by-the-book detectives, greatly reducing risk',
+                'label':'Zaffaroni',
+                'description':'Manejar la Corte Suprema tiene sus beneficios',
                 'amount':0,
                 'risk':-0.1,
                 'rps':10500,
@@ -650,8 +650,8 @@ function Game() {
                 'sid':'s9',
             },
              'senator':{
-                'label':'Crooked Senator',
-                'description':'This crooked member of the senate will provide you with some of the best distribution channels as well as help keep the fed outta your biznaz',
+                'label':'Comprar jugadores para Racing',
+                'description':'Cumplile el deseo al Eternestor sacando a R*cing campeon con compras de dudosa procedencia',
                 'amount':0,
                 'risk':-0.1,
                 'rps':45000,
@@ -662,8 +662,8 @@ function Game() {
                 'sid':'s10',
             },
             'big_cartel':{
-                'label':'Rival Cartel',
-                'description':'Pay off a rival cartel, greatly increasing the demand for your product',
+                'label':'Futbol para Todos',
+                'description':'Vas a ser criticado... pero queres volver a tener que mirar la tribuna todo el partido?',
                 'amount':0,
                 'risk':0.25,
                 'rps':105000,
@@ -674,8 +674,8 @@ function Game() {
                 'sid':'s11',
             },
             'dictator':{
-                'label':'El Presidente',
-                'description':'Partner with a dictator of an impoverished country for unchecked meth distribution',
+                'label':'Tratados con Venezuela',
+                'description':'Grandes acuerdos comerciales con el pais que no tiene ni papel higienico',
                 'amount':0,
                 'risk':-0.05,
                 'rps':1150000,
@@ -686,11 +686,8 @@ function Game() {
                 'sid':'s12',
             },
             'space_mules':{
-                'label':'Space Mules',
-                'description':'Space mules ain\'t your daddy\'s drug mule. '
-                    + 'They supply '
-                    + 'extra terrestrial beings with a steady stream of your sweet sweet '
-                    + 'crystal',
+                'label':'Contratar valijeros profesionales',
+                'description':'Querian ficcion? Yo les voy a dar ficcion',
                 'amount':0,
                 'risk':0.000001,
                 'rps':11205000,
@@ -701,9 +698,8 @@ function Game() {
                 'sid':'s13',
             },
             'meth_mart':{
-                'label':'Meth-Mart',
-                'description':'The MM franchise is an easy way to distribute product to shoppers, '
-                    +'but it\'s very risky, as you would imagine',
+                'label':'Comprar la Rosadita',
+                'description':'Una financiera es una buena forma de lavar, pero el riesgo de que Lanata te agarre es muy alto!',
                 'amount':0,
                 'risk':0.55,
                 'rps':55205000,
@@ -762,8 +758,8 @@ function Game() {
         'upgrades':{
             // UPG VENTILATION STUFF
             '00_air_fresheners':{
-                'label':'Air Fresheners',
-                'description':'With the sweet sent of pine in the air, you can cook an extra batch at a time.',
+                'label':'Reinagurar el soterramiento del Sarmiento',
+                'description':'Con bombos y platillos, ahora podes generar un choriplan mas',
                 'action':'make_amount',
                 'purchased':false,
                 'mod':1,
@@ -772,8 +768,8 @@ function Game() {
                 'sid':'u01',
             },
             '01_exhaust_fan':{
-                'label':'Exhaust Fan',
-                'description':'You can now cook 5 more batches at a time',
+                'label':'Transpasarle el subte a CABA',
+                'description':'Que se arregle Mugricio, ahora podes generar 5 choriplanes mas',
                 'action':'make_amount',
                 'purchased':false,
                 'mod':5,
@@ -782,8 +778,8 @@ function Game() {
                 'sid':'u02',
             },
             '02_goatee':{
-                'label':'Goatee',
-                'description':'Your mighty goatee intimidates buyers into buying more product; you can now sell an extra batch at a time',
+                'label':'Maquina de contar billetes',
+                'description':'Contar todos esos billetes en negro no es un trabajo facil',
                 'action':'sell_amount',
                 'purchased':false,
                 'mod':1,
@@ -792,8 +788,8 @@ function Game() {
                 'sid':'u03',
             },
             '03_hvac':{
-                'label':'Industrial HVAC',
-                'description':'Keep the fumes out. You can now cook 100 more batches at a time',
+                'label':'Volver a reinagurar el soterramiento del Sarmiento',
+                'description':'Sin haber hecho la obra, generas 100 choriplanes mas',
                 'action':'make_amount',
                 'purchased':false,
                 'mod':100,
@@ -802,8 +798,8 @@ function Game() {
                 'sid':'u04',
             },
             '04_glasses':{
-                'label':'Prescription Glasses',
-                'description':'Your nerdy specs make your buyers feel they can trust you more; you can now sell 5 additional batches at a time',
+                'label':'Balanza analogica',
+                'description':'Cuando la guita la tenes que pesar en lugar de contar...',
                 'action':'sell_amount',
                 'purchased':false,
                 'mod':5,
@@ -812,8 +808,8 @@ function Game() {
                 'sid':'u05',
             },
             '07_hat': {
-                'label':'Porkpie Hat',
-                'description':'This early 20th century hat keeps the sun out of your eyes, allowing you to make an additional 50 batches at a time',
+                'label':'Balanza digital',
+                'description':'Una mejor balanza te deja generar 500 choriplanes mas',
                 'action':'make_amount',
                 'purchased':false,
                 'mod':50,
@@ -822,8 +818,8 @@ function Game() {
                 'sid':'u06',
             },
             '08_mariachi_band':{
-                'label':'Mariachi Band',
-                'description':'An authentic narcocorrido band to sing the tale of you and your meth. Allows you to charge an extra $5 per batch',
+                'label':'Contratar a Perez Gadin',
+                'description':'Este experto te permite afanar 5 mas por choriplan',
                 'action':'widget_roi',
                 'purchased':false,
                 'mod':5,
@@ -843,8 +839,8 @@ function Game() {
             },
             // UPG SELLERS
             '11_dealer_business_cards':{
-                'label':'Dealer Business Cards',
-                'description':'Improves sale rate of your dealers by .1/s',
+                'label':'Bolsos reforzados',
+                'description':'Mejora el afano en .1/s',
                 'action':'sellers.01_dealer.rps',
                 'purchased':false,
                 'mod':.1,
@@ -853,8 +849,8 @@ function Game() {
                 'sid':'u09',
             },
             '13_spinning_rims':{
-                'label':'Spinnin\' Rims',
-                'description':'Roll with style! Improves the sale rate of your dealers by .2/s',
+                'label':'Carry on de 4 rueditas',
+                'description':'Mejora la velocidad a la que podes afanar en .2/s',
                 'action':'sellers.01_dealer.rps',
                 'purchased':false,
                 'mod':.2,
@@ -863,8 +859,8 @@ function Game() {
                 'sid':'u10',
             },
             'dealer_slacks':{
-                'label':'Dealer Slacks',
-                'description':'Your dealers now wear nice slacks, reducing suspicion by 1%',
+                'label':'Destruir boletas de los otros partidos',
+                'description':'Reduce el riesgo de perder en 1%',
                 'action':'sellers.01_dealer.risk',
                 'purchased':false,
                 'mod':-.01,
@@ -1393,8 +1389,8 @@ function Game() {
         // ACHIEVEMENTS
         'achievements': {
             'hand_made_widgets_1': {
-                'label':'This is kinda fun...',
-                'description':'You\'ve hand-cooked your first batch of meth',
+                'label':'Esto parece facil...',
+                'description':'Generaste tu primer choriplan',
                 'property':'stats.hand_made_widgets',
                 'required':1,
                 'unlocked':false,
@@ -1404,8 +1400,8 @@ function Game() {
                 'sid':'a01',
             },
             'hand_made_widgets_2': {
-                'label':'I see how this works',
-                'description':'You\'ve hand-cooked 100 batches of meth',
+                'label':'Le estoy tomando el gusto al populismo',
+                'description':'Generaste 100 choriplanes a mano',
                 'property':'stats.hand_made_widgets',
                 'required':100,
                 'unlocked':false,
@@ -1415,8 +1411,8 @@ function Game() {
                 'sid':'a02',
             },
             'hand_made_widgets_3': {
-                'label':'Click apprentice',
-                'description':'You\'ve hand-cooked 1,000 batches of meth',
+                'label':'Discipulo del General',
+                'description':'Generaste 1000 choriplanes',
                 'property':'stats.hand_made_widgets',
                 'required':1000,
                 'unlocked':false,
@@ -1426,8 +1422,8 @@ function Game() {
                 'sid':'a03',
             },
             'hand_made_widgets_4':{
-                'label':'Click magician',
-                'description':'You\'ve hand-cooked 100,000 batches of meth',
+                'label':'Tercera posicion',
+                'description':'Generaste 100000 choriplanes',
                 'property':'stats.hand_made_widgets',
                 'required':100000,
                 'unlocked':false,
@@ -1437,8 +1433,8 @@ function Game() {
                 'sid':'a04',
             },
             'hand_made_widgets_5':{
-                'label':'Clickity-splickity',
-                'description':'You\'ve hand-cooked 1,000,000 batches of meth',
+                'label':'Las manos de Peron',
+                'description':'Generaste 1,000,000 choriplanes a mano!',
                 'property':'stats.hand_made_widgets',
                 'required':1000000,
                 'unlocked':false,
@@ -1459,8 +1455,8 @@ function Game() {
                 'sid':'a06',
             },
             'total_cash_1': {
-                'label':'In the meth business',
-                'description':'You\'ve earned your first $1,000',
+                'label':'Puntero',
+                'description':'Afanaste tus primeros $1,000',
                 'property':'stats.total_cash',
                 'required':1000,
                 'unlocked':false,
@@ -1470,8 +1466,8 @@ function Game() {
                 'sid':'a07',
             },
             'total_cash_2': {
-                'label':'In the money business',
-                'description':'You\'ve earned your first $1,000,000',
+                'label':'Gnocci del estado',
+                'description':'Afanaste tus primeros $1,000,000',
                 'property':'stats.total_cash',
                 'required':1000000,
                 'unlocked':false,
@@ -1481,8 +1477,8 @@ function Game() {
                 'sid':'a08',
             },
             'total_cash_3': {
-                'label':'Billion with a B',
-                'description':'You\'ve earned your first $1,000,000,000',
+                'label':'Magnate de Calafate',
+                'description':'Afanaste tus primeros $1,000,000,000',
                 'property':'stats.total_cash',
                 'required':1000000000,
                 'unlocked':false,
@@ -1492,8 +1488,8 @@ function Game() {
                 'sid':'a09',
             },
             'total_cash_4': {
-                'label':'In the cartel business',
-                'description':'You\'ve earned your first $1 trillion',
+                'label':'Unico heroe en este lio',
+                'description':'Afanaste tu primer trillon',
                 'property':'stats.total_cash',
                 'required':1000000000000,
                 'unlocked':false,
@@ -3162,7 +3158,7 @@ function Game() {
             amt = pd.widgets.amount;
         }
         pd.widgets.amount -= amt;
-        bad_message('About '+pretty_bigint(amt)+' batches of meth have gone missing...');
+        bad_message('Perdimos '+pretty_bigint(amt)+' choripanes que teniamos en la heladera con un corte de luz...');
         return true;
     }
 
@@ -3220,7 +3216,7 @@ function Game() {
             return false;
         }
         pd.cash.amount -= amt;
-        bad_message('The DEA has seized $'+pretty_bigint(amt)+'!');
+        bad_message('Los propios caudillos peronistas se afanaron $'+pretty_bigint(amt)+' para sus arcas!');
         return true;
     }
 
